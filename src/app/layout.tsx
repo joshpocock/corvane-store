@@ -8,7 +8,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"], axes: ["SOFT", "WONK", "opsz"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://corvane.vercel.app"),
+  metadataBase: new URL("https://corvane-store.vercel.app"),
   title: { default: "Corvane | Commute and travel gear built for the in-between", template: "%s | Corvane" },
   description:
     "Weather-ready bags, outer layers and travel gear for city commuters and weekend travellers. Waxed canvas totes, packable rain shells, 36-hour bottles. Built for the in-between.",
